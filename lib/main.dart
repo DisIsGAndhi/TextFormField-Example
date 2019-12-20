@@ -21,15 +21,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-
-
-      //For running only with flutter comment this section code
       routes: {
         'route1': (context) => FormmField(),
       },
-
-
-
 
       home: FormmField(),
     );
